@@ -13,6 +13,9 @@ body {
 .wrapper {
 	background: #ffffff;
 	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar {
@@ -112,4 +115,113 @@ body {
 
 .soft-skills-text {
     color: #adb1b6;
+}
+
+.about-me-main-info {
+    margin-bottom: 65px;
+}
+
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    /*margin-bottom: 25px;*/
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 90px;
+    /*margin-bottom: 25px;*/
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #909090;
+}
+
+.projects-division {
+    margin-bottom: 50px;
+}
+
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+/*    margin-bottom: 15px;*/
+}
+
+.work-experience {
+    margin-bottom: 50px;
+}
+
+.ordered-list {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.projects-links {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.ordered-list-items {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+    font-weight: 100;
+}
+
+.work-experience-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.worked-company {
+    color: #ff9c5a;
+}
+
+.work-experience-period {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a8a8a8;
+    margin: 15px, 0px;
+}
+
+.separator {
+    color: #000000;
+}
+
+.work-experience-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 15px;
+}
+
+.education-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ff9c5a;
+    margin-top: 20px;
+}
+
+.specialization {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px, 0px;
 }
